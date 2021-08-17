@@ -1,0 +1,10 @@
+.imgwrapper img {
+    width: 400px;
+    border: 10px solid white;
+    box-shadow: 1px 1px 5px gray;
+    margin: 5px;
+    transition: 0,4s;
+}
+.imgwrapper img:hover {
+    transform: scale(1.5);
+}

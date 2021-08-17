@@ -1,0 +1,89 @@
+body {
+    background-color: #ececec;
+}
+body h1, body p, .results h2 {
+    text-align: center;
+}
+.results {
+    background-color: white;
+    height: 400px;
+    width: 600px;
+    border: 1px solid #9e9e9e;
+    margin: auto;
+    transition: 0.4s;
+    overflow: hidden;
+}
+.results > h2 {
+    position:absolute;
+    left: 880px;
+    top: 300px;
+    transition: 0.4s;
+    margin: 0;
+}
+.results:hover h2 {
+    opacity: 0%;
+}
+.results:hover .results__display {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+.results__display {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    opacity: 0;
+    transition: 0.4s;
+    transform: translate(0, 100%);
+}
+.column {
+    width: 40px;
+    background-color: black;
+    height: 20px;
+    align-self: flex-end;
+    color:white;
+    text-align: center;
+}
+.socialdemokratiet {
+    background-color: #db374f;
+    height: 75%;
+}
+.venstre {
+    background-color: #1084bc;
+    height: 53.4%;
+}
+.conservative {
+    background-color: #0f844c;
+    height: 9.6%;
+}
+.socialistiskfolkeparti {
+    background-color: #702934;
+    height: 12.6%;
+}
+.alternativet {
+    background-color: #60fc60;
+    height: 22.2%;
+}
+.danskfolkeparti {
+    background-color: #0b6b97;
+    height: 62.4%;
+}
+.radikalevenstre {
+    background-color: #e52b91;
+    height: 15.3%;
+}
+.enhedslisten {
+    background-color: #731525;
+    height: 25.8%;
+}
+.logos {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 10px;
+    width: 600px;
+}
+.logos img {
+    width: 30px;
+    margin: 5px;
+}

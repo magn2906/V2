@@ -1,0 +1,45 @@
+.desktopnav {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.desktopnav > a {
+    margin: 0;
+    color:white;
+    background-color: violet;
+    text-decoration: none;
+    font-size: 2rem;
+}
+#mobilenav {
+    display: none;
+}
+.mobilenavbox {
+    border: 4px solid violet;
+    width: 25%;
+    display: none;
+}
+.mobilenavbox > a {
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    width: 100%;
+    display: none;
+}
+@media (max-width: 720px) {
+    .desktopnav {
+        display: none;
+    }
+    label {
+        width: 40px;
+        height: 40px;
+        background-color: violet;
+        display: block;
+    }
+    #mobilenav:checked + .mobilenavbox {
+        display: flex;
+        flex-direction: column;
+    }
+    .mobilenavbox > a {
+        display:inline-flex;
+    }
+}

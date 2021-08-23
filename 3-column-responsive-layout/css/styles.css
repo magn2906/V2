@@ -1,6 +1,9 @@
 * {
     color: white;
 }
+body {
+    margin: 0;
+}
 header, 
 footer {
     height: 50px;
@@ -10,7 +13,6 @@ footer {
 .wrapper {
     display: flex;
     flex-wrap: wrap;
-    height: calc(100%-100px);
     height: 100vh;
 }
 .sidebar1, .sidebar2 {
@@ -19,6 +21,7 @@ footer {
 .content {
     background-color: blue;
     flex-grow: 1;
+    height: calc(100% - 100px);
 }
 .sidebar1 {
     background-color: green;

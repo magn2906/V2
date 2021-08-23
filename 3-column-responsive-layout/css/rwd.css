@@ -7,36 +7,43 @@
         background-color: #ccc; 
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 541px) {
     .sidebar1{ 
         width: 50%; 
     }
     .sidebar2 { 
         width: 100%; 
     }
+    .content,
+    .sidebar1,
+    .sidebar2 {
+        height: calc(50% - 50px);
+    }
 }
-@media (max-width: 480px) {
-    .wrapper {
-        flex-direction: column;
-    }
-    header {
-        order: 1;
-    }
-    .content { 
-        order: 2;
-    }
-    .sidebar1 { 
-        order: 3;
-    }
-    .sidebar2 { 
-        order: 4;
-    }
-    footer {
-        order: 5;
+@media (max-width: 540px) {
+    .content{
+        height: calc(100% - 136px);
     }
     .content, 
     .sidebar1, 
     .sidebar2 { 
         width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    header {
+        order: 1;
+    }
+    .content {
+        order: 2;
+    }
+    .sidebar1 {
+        order: 3;
+    }
+    .sidebar2 {
+        order: 4;
+    }
+    footer {
+        order: 5;
     }
 }

@@ -1,0 +1,24 @@
+@media(max-width: 960px){
+    .box {
+        background: blue;
+    }
+    .box:before {
+        content: "Bredde: 960px";
+    }
+}
+@media(max-width: 768px){
+    .box {
+        background: green;
+    }
+    .box:before {
+        content: "Bredde: 768px";
+    }
+}
+@media(max-width: 480px){
+    .box {
+        background: orange;
+    }
+    .box:before {
+        content: "Bredde: 480px";
+    }
+}

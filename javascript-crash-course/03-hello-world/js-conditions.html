@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num1 = 73;
+        if (num1 > 50) {
+            console.log('Tallet er større end 50');        
+        }
+
+        let minAge = 23;
+        if (minAge >= 18) {
+            console.log(minAge + " er større eller lig med 18");
+        }
+
+        let firstname = undefined;
+        if (firstname == ("" || null || undefined)) {
+            console.log("Du glemte at indtaste dit fornavn");
+        }
+        
+        let gender = "female";
+        if (gender == "male") {
+            console.log("Personen er en mand");
+        }
+        else {
+            console.log("Personen er en kvinde");
+        }
+
+        function notFifty(num) {
+            if (num != 50) {
+                console.log("Tallet " + num + " er godkendt.");
+            } else {
+                console.log("Tallet er 50.");
+            }
+        }
+        let num3 = 50;
+        let num4 = 42;
+        notFifty(num3);
+        notFifty(num4);
+
+        function howOld(age) {
+            if (age < 18) {
+            console.log("Du er et barn.")
+        } 
+        else if (age >= 18 && age < 62) {
+            console.log("Du er voksen.");
+        } else if(age >= 62) {
+            console.log("Du er pensionist.");
+        }
+        }
+        let myAge = 20;
+        let klementAge = 69;
+        let hundAge = 8;
+        howOld(myAge);
+        howOld(klementAge);
+        howOld(hundAge);
+
+    </script>
+</body>
+</html>

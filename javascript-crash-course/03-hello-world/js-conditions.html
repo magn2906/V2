@@ -18,8 +18,8 @@
             console.log(minAge + " er større eller lig med 18");
         }
 
-        let firstname = undefined;
-        if (firstname == ("" || null || undefined)) {
+        let firstname = "";
+        if (!firstname) { // !firstname er det samme som firstname == false
             console.log("Du glemte at indtaste dit fornavn");
         }
         
@@ -60,6 +60,7 @@
         howOld(klementAge);
         howOld(hundAge);
 
+        
     </script>
 </body>
 </html>

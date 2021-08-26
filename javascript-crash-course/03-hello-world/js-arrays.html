@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let countries = ["Danmark", "Sverige", "Norge", "Finland"];
+        console.log(countries);
+        for (let country in countries) {
+            console.log(countries[country]);
+        }
+
+        let numArr = [5, 9, 42, 64, 79];
+
+        let diverseArr = ["Christian", 45, [1, 2, 3], "Dorte"];
+        console.log(diverseArr[1] + ' ' + diverseArr[2][2])
+
+        let colors = ["red", "green", "blue"];
+        console.log(colors);
+        colors.push("yellow");
+        console.log(colors);
+
+        let fruits1 = ["apples", "oranges", "bananas"];
+        console.log(fruits1);
+        fruits1.unshift("strawberries");
+        console.log(fruits1);
+
+        let fruits2 = ["apples", "oranges", "bananas"];
+        console.log(fruits2);
+        fruits2.shift();
+        console.log(fruits2);
+
+        let numArr2 = [1, 2, 3, 4 , 5];
+        console.log(numArr2);
+        numArr2 = [];           // Kan også skrive numArr2.length = 0;
+        console.log(numArr2);
+
+        let cars = ["Toyota", "Ford", "Mercedes", "Audi"];
+        console.log(cars[3]);
+
+        let fodboldSpillere = ["Kasper Schmeichel", "Christian Eriksen", "Lasse Schöne", "William kvist", "Simon Kjær", "Lord Bendtner"];
+        for (let spiller in fodboldSpillere) {
+            console.log(fodboldSpillere[spiller]);
+        }
+
+        let person = {
+            firstname: "John",
+            lastname: "Doe",
+            address: "Fosse Way 1",
+            city: "London",
+            phone: 453223417392
+        }
+        for (let key in person) {
+            console.log(person[key]);
+        }
+        let person2 = {
+            firstname: "John",
+            lastname: "Doe",
+            address: "Fosse Way 1",
+            city: "London",
+            phone: 453223417392
+        }
+
+    </script>
+</body>
+</html>

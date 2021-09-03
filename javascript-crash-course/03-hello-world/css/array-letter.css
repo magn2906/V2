@@ -1,0 +1,41 @@
+* {
+    font-size: 18px;
+}
+body {
+    background-color: lightgrey;
+    width: 100vw;
+    margin: 0;
+}
+span {
+    color: green;
+}
+.paper {
+    background-color: white;
+    width: 800px;
+    height: 100vh;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 1px 1px 10px black;
+}
+.wrapper {
+    padding: 100px;
+}
+#logo {
+    content: url(../img/logo_jb.png);
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+.generalInfo {
+    text-align: right;
+    margin-right: 120px;
+    margin-top: 0;
+    white-space: pre;
+}
+.receiverInfo {
+    white-space: pre;
+}
+.currentDate {
+    text-align: right;
+}

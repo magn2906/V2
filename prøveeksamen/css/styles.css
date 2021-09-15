@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+.navTop {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+.searchBar {
+    border: 1px solid gray;
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    width: 300px;
+}
+.searchBar > input {
+    border: 0;
+}
+.searchBar > input:focus-visible {
+    outline: 0;
+}
+#menuButton {
+    display: none;
+}
+.navTop > label > img, .navTop > label{
+    
+}
+header {
+    background-image: url(../img/hero-02.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+.readMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50px;
+    width: 150px;
+    background-color: #80c444;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+}

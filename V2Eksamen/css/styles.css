@@ -30,6 +30,10 @@ nav a {
     color: #333;
     text-decoration: none;
     font-weight: 600;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #FE7D4E;
 }
 .createUser {
     padding: 20px 40px 20px 40px;
@@ -132,6 +136,11 @@ header > label > img {
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
+    transition: 0.3s;
+}
+.bookOfTheMonthDescription > a:hover {
+    color: #FE7D4E;
+    transform: scale(1.05);
 }
 .bookOfTheMonthDescription > a > img {
     max-width: 40px;
@@ -162,6 +171,10 @@ header > label > img {
     text-decoration: none;
     max-width: 100px;
     margin-top: 150px;
+    transition: 0.2s;
+}
+.orderBook:hover {
+    transform: scale(1.1);
 }
 .bookClub {
     background-image: url(../img/Cover-Bogklub.jpg);
@@ -170,7 +183,7 @@ header > label > img {
     align-items: center;
     justify-content: center;
     margin: 150px 0 150px 0;
-    background-size: cover  ;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .bookClub a {
@@ -181,6 +194,15 @@ header > label > img {
     padding: 20px 40px 20px 40px;
     font-size: 20px;
     font-weight: 600;
+    transition: 0.2s;
+}
+.bookClub a:hover {
+    background-color: rgb(151, 190, 91);
+}
+@media (min-width: 1451px) {
+    .bookClub a:hover {
+        transform: scale(1.1);
+    }
 }
 footer {
     display: flex;
@@ -190,26 +212,34 @@ footer {
     overflow: hidden;
 }
 footer > div {
-    padding: 100px;
+    padding: 50px 100px 0px 100px;
 }
 footer p {
     margin-top: 5px;
 }
 footer h3 {
     font-size: 24px;
-    margin-bottom: 0;
+    margin: 0;
 }
 footer h4 {
-    margin: 5px 5px 0 5px;
+    margin: 0;
 }
 footer > img {
     max-height: 400px;
     min-width: 30%;
+    object-fit: cover;
 }
 .openingTimes > p {
     margin-bottom: 100px;
 }
+.socialMedia {
+    display: flex;
+}
+.socialMedia > a:hover > img {
+    transform: scale(1.2);
+}
 .socialMedia > a > img {
-    max-width: 60px;
+    min-width: 60px;
     fill: #FE7D4E;
+    transition: 0.2s;
 }

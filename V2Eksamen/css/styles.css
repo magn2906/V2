@@ -101,7 +101,9 @@ header > label > img {
 }
 .books a {
     max-width: 320px;
+    max-height: 480px;
     transition: 0.2s;
+    box-shadow: 10px 10px 30px 1px rgba(0, 0, 0, 0.3)
 }
 .books a:hover {
     transform: scale(1.1);
@@ -115,7 +117,7 @@ header > label > img {
 }
 .bookOfTheMonthDescription, .bookOfTheMonthDisplay {
     height: 500px;
-    padding: 50px 200px 50px 100px;
+    padding: 50px 200px 50px 200px;
 }
 .bookOfTheMonthDescription {
     width: 25%;
@@ -131,10 +133,11 @@ header > label > img {
 }
 .bookOfTheMonthDescription > a {
     display: flex;
+    margin-top: 50px;
     align-items: center;
     justify-content: left;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     transition: 0.3s;
 }

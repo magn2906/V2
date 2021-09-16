@@ -1,0 +1,15 @@
+@media (max-width: 480px) {
+    .bookOfTheMonthDisplay {
+        flex-wrap: wrap;
+        height: 1000px;
+    }
+    .bookOfTheMonthDisplay > img {
+        margin: auto;
+    }
+    .bookOfTheMonthDisplayInfo > h3 {
+        font-size: 16px;
+    }
+    .orderBook {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+    background-color: #FFF7F3;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0 0 0;
+    overflow-x: hidden;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 40px 100px;
+}
+header > a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 30px;
+    font-weight: 800;
+}
+.fantasy {
+    color: #FE7D4E;
+}
+nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+}
+.createUser {
+    padding: 20px 40px 20px 40px;
+    color:#FE7D4E;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ffece4;
+    border: 1px solid #f8e1d9;
+    border-radius: 50px;
+}
+#mobileMenu {
+    display: none;
+}
+header > label {
+    display: none;
+}
+header > label > img {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+.intro {
+    background-image: url(../img/hero\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30% 0 30%;
+    color: white;
+    max-width: 100vw;
+}
+.intro h1 {
+    text-shadow: 2px 2px 8px black;
+    font-size: 24px;
+}
+.secondhand {
+    padding: 150px;
+}
+.secondhandTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+.showMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100px;
+}
+.showMore a {
+    text-decoration: none;
+    color: #333333;
+}
+.showMore img {
+    width: 40px;
+}
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+.books a {
+    max-width: 320px;
+    transition: 0.2s;
+}
+.books a:hover {
+    transform: scale(1.1);
+}
+.books a img {
+    max-width: 100%;
+    box-shadow: 0px 0px 2px black;
+}
+.bookOfTheMonth {
+    display: flex;
+}
+.bookOfTheMonthDescription, .bookOfTheMonthDisplay {
+    height: 500px;
+    padding: 50px 200px 50px 100px;
+}
+.bookOfTheMonthDescription {
+    width: 25%;
+    background-color: #FEFDF9;
+}
+.bookOfTheMonthDisplay {
+    width: 75%;
+    background-color: #FEF2F2;
+    display: flex;
+}
+.bookOfTheMonthDisplayWrapper {
+    padding: 0 50px 0 50px;
+}
+.bookOfTheMonthDescription > a {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.bookOfTheMonthDescription > a > img {
+    max-width: 40px;
+}
+.bookOfTheMonthDisplayInfo {
+    display: flex;
+    justify-content: space-between;
+    color: #543D32;
+}
+.bookOfTheMonthDisplayInfo > h3, .bookOfTheMonthDisplayWrapper, .bookOfTheMonth h2, .bookOfTheMonthDescription > a {
+    color: #543D32;
+}
+.bookOfTheMonthDisplayInfo > h3 > span {
+    color: #707070;
+}
+.bookOfTheMonth p {
+    color: #707070;
+    font-size: 18px;
+}
+.orderBook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+    background-color: #FE7D4E;
+    padding: 20px 30px 20px 30px;
+    text-decoration: none;
+    max-width: 100px;
+    margin-top: 150px;
+}
+.bookClub {
+    background-image: url(../img/Cover-Bogklub.jpg);
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px 0 150px 0;
+    background-size: cover  ;
+    background-repeat: no-repeat;
+}
+.bookClub a {
+    text-decoration: none;
+    background-color: #FE7D4E;
+    color: white;
+    border-radius: 30px;
+    padding: 20px 40px 20px 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: #FEFDF9;
+    overflow: hidden;
+}
+footer > div {
+    padding: 100px;
+}
+footer p {
+    margin-top: 5px;
+}
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+footer h4 {
+    margin: 5px 5px 0 5px;
+}
+footer > img {
+    max-height: 400px;
+    min-width: 30%;
+}
+.openingTimes > p {
+    margin-bottom: 100px;
+}
+.socialMedia > a > img {
+    max-width: 60px;
+    fill: #FE7D4E;
+}

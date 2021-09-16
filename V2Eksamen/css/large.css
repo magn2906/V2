@@ -1,0 +1,73 @@
+@media (max-width: 1450px) {
+    .bookClub {
+        background-position: right;
+    }
+}
+@media (max-width: 1024px) {
+    body {
+        max-width: 100vw;
+    }
+    header {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    nav {
+        position: absolute;
+        display: none;
+        transform: translate(200%);
+    }
+    header > label {
+        display: inline-flex;
+    }
+    #mobileMenu:checked + nav {
+        top: 131px;
+        right: 0;
+        transform: translate(0%);
+        flex-direction: column;
+        background-color: black;
+        padding: 20px;
+        transition: 0.3s;
+        gap: 0;
+        display: flex;
+    }
+    #mobileMenu:checked + nav > a {
+        color: white;
+        padding-top: 10px;
+    }
+    #mobileMenu:checked + nav > .createUser {
+        color: #FE7D4E;
+        padding: 15px;
+        margin-top: 20px;
+    }
+    #mobileMenu:checked + nav a:nth-child(1), nav a:nth-child(2) {
+        border-bottom: 2px solid gray;
+        padding-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .bookOfTheMonth {
+        flex-wrap: wrap;
+    }
+    .bookOfTheMonth > .bookOfTheMonthDescription {
+        height: 350px;
+        padding-bottom: 0;
+        width: 100%;
+    }
+    .bookClub {
+        margin: 100px 0 100px 0;
+    }
+    .bookClub > a {
+        transform: translateY(150%);
+    }
+    footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0;
+    }
+    .contactInfo > h3 {
+        margin-top: 0;
+    }
+    footer > img {
+        width: 100%;
+    }
+}

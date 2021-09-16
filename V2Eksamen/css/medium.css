@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+    .intro {
+        padding: 0 15% 0 15%;
+        height: 800px;
+    }
+    .intro h1 {
+        font-size: 20px;
+    }
+    .bookOfTheMonthDescription, .bookOfTheMonthDisplay {
+        width: 100%;
+    }
+    .bookOfTheMonth > .bookOfTheMonthDescription {
+        height: 400px;
+    }
+    .bookOfTheMonth > div {
+        padding: 20px;
+    }
+    .secondhand {
+        padding: 50px;
+    }
+    .books {
+        justify-content: center;
+    }
+    .bookClub {
+        height: 300px;
+        margin: 75px 0 75px 0;
+    }
+    .bookClub a {
+        padding: 10px 20px 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .openingTimes {
+        padding-top: 0;
+    }
+}

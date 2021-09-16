@@ -44,6 +44,10 @@ nav a:hover {
     border: 1px solid #f8e1d9;
     border-radius: 50px;
 }
+.createUser:hover {
+    color: white;
+    background-color: #be6a46;
+}
 #mobileMenu {
     display: none;
 }
@@ -85,10 +89,13 @@ header > label > img {
     align-items: center;
     justify-content: center;
     max-width: 100px;
-}
-.showMore a {
     text-decoration: none;
     color: #333333;
+    transition: 0.3s;
+}
+.showMore:hover {
+    color: #FE7D4E;
+    transform: scale(1.05);
 }
 .showMore img {
     width: 40px;

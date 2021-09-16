@@ -1,3 +1,4 @@
+
 @media (max-width: 1450px) {
     .bookClub {
         background-position: right;
@@ -78,4 +79,14 @@
         width: 100%;
     }
     
+}
+@media (max-width: 1545px) {
+    .bookOfTheMonth > .bookOfTheMonthDescription {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .bookOfTheMonthDisplay {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
